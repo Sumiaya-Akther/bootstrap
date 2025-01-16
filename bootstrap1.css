@@ -1,0 +1,143 @@
+header{
+    z-index: 1;
+}
+.z-index{
+    z-index: 0;
+}
+.borderline{
+    height: 40px;
+    border: 1px solid white;
+}
+.nav-item :hover{
+    /* height: 35px; */
+    background-color: #43a047;
+}
+.text{
+    color: white;
+}
+.text :hover{
+    color: rgb(202, 76, 76);
+}
+.banner-img{
+    margin-top: 125px;
+}
+.card-border-1:hover{
+    border-right: 2px solid rgb(125, 4, 125);
+    border-left: 2px solid rgb(125, 4, 125);
+    border-bottom: 2px solid rgb(125, 4, 125);
+    border-radius: 8px; 
+}
+.card-zoom{
+    transition: all 0.3s;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 5px rgb(182, 177, 177);
+}
+.card-zoom:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(110, 226, 110);
+}
+.age{
+    width: 115px;
+    height: 90px;
+    margin-top: 8px;
+    background: #FAE7F7;
+   box-shadow: 2px 2px rgb(134, 230, 134); 
+}
+
+.left-btn{
+    color: blue;
+    background: linear-gradient(to left, #FCE7F3, #EEACE2);
+}
+.left-btn:hover{
+    color: white;
+    background: linear-gradient(to left, #e477ca, #c781f1 );
+}
+.right-btn{
+    color: blue;
+    background: linear-gradient(to left, #faef8e, #a5dcd8 );
+}
+.right-btn:hover{
+    color: white;
+    background: linear-gradient(to left, #e477ca, #c781f1 );
+}
+/* details css */
+.details-btn{
+    color: yellow;
+    background-color: red;
+}
+.details-btn:hover{
+    color: white;
+    background-color: purple;
+}
+.gradient-text-heading{
+    /* font-size: 24px; */
+    font-weight: bold;
+    background: linear-gradient(to right, red, purple, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.accordion-bg{
+    background-color: #efd4f9;
+}
+.accordion-bg:not(.collapse){
+    background-color: #efd4f9;  
+}
+.single-card-border-1:hover{
+    border-top: 2px solid rgb(125, 4, 125);
+    border-right: 2px solid rgb(125, 4, 125);
+    border-left: 2px solid rgb(125, 4, 125);
+    border-bottom: 2px solid rgb(125, 4, 125);
+    border-radius: 8px; 
+}
+.map-area{
+    width: 900px;
+    height: 400px;  
+}
+.map-width{
+    height: 450px;
+}
+.btn-margin{
+    margin-top: 150px;
+}
+.map-border{
+    height: 450px;
+    border-right:2px solid #230a43;
+    margin-top: 25px;
+    
+}
+/* footer section */
+.image img{
+    width: 420px;
+    height: 160px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.line{
+    width: 500px;
+    height: 1px;
+    background-color: black;
+}
+
+/* responsive */
+@media screen and (max-width: 576px){
+.banner-img , .single-course-img{
+    width: 100%;
+    margin-top: 50px;
+}
+.age{
+    width: 98px;
+    height: 80px;
+    gap: 5px;
+}
+.map-width, .map-border{
+    height: 80px;
+}
+.btn-margin{
+    margin-top: 0px;
+}
+.image img{
+    width: 300px;
+    height: 120px;
+}
+}
+    
